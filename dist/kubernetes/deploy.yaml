@@ -1059,6 +1059,7 @@ metadata:
     app.kubernetes.io/component: service
     app.kuberneres.io/owner: retail-store-sample
     app.kubernetes.io/managed-by: Helm
+  annotations:
 spec:
   type: LoadBalancer
   ports:
@@ -1071,6 +1072,7 @@ spec:
     app.kubernetes.io/instance: ui
     app.kubernetes.io/component: service
     app.kuberneres.io/owner: retail-store-sample
+  
 ---
 # Source: retail-store-sample-ui-chart/templates/deployment.yaml
 apiVersion: apps/v1
