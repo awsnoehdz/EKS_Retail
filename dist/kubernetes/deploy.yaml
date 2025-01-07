@@ -1061,6 +1061,8 @@ metadata:
     app.kubernetes.io/managed-by: Helm
   annotations:
     service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
+    service.beta.kubernetes.io/aws-load-balancer-attributes: load_balancing.cross_zone.enabled=true
+    service.beta.kubernetes.io/aws-load-balancer-subnets: subnet-097e21a0b3cac6349,subnet-01674093297872bf7
 spec:
   type: LoadBalancer
   ports:
