@@ -1062,7 +1062,7 @@ metadata:
   annotations:
     service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
     service.beta.kubernetes.io/aws-load-balancer-attributes: load_balancing.cross_zone.enabled=true
-    service.beta.kubernetes.io/aws-load-balancer-subnets: subnet-097e21a0b3cac6349,subnet-01674093297872bf7
+    service.beta.kubernetes.io/aws-load-balancer-subnets: subnet-097e21a0b3cac6349,subnet-01674093297872bf7,subnet-044f11c0f82c27b90
 spec:
   type: LoadBalancer
   ports:
